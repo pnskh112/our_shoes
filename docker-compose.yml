@@ -19,7 +19,7 @@ services:
       - 80:80
     volumes:
       - ./nginx/log:/var/log/nginx
-    volumes_from:
-      - app
+    # volumes_from:
+    #   - app
     depends_on:
       - app
