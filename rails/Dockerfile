@@ -22,7 +22,7 @@ COPY Gemfile.lock $APP_HOME/Gemfile.lock
 RUN bundle install
 
 # Railsアプリを作成（既存のアプリをマウントする場合は不要）
-RUN rails new . --database=mysql
+RUN rails new . -v --database=mysql
 
 # 設定ファイル書き換え（既存のアプリをマウントする場合は不要）
 COPY ./config $APP_HOME/config
@@ -32,4 +32,4 @@ VOLUME /app/public
 VOLUME /app/tmp
 
 # コンテナ起動時にRailsサーバを起動
-CMD ["rails", "server"]
+CMD ["rails", "server","-b", "0.0.0.0"]

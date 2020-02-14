@@ -41,3 +41,30 @@
 2020/02/08 16:34:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
 2020/02/08 16:51:53 [crit] 6#6: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.48.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost:3000"
 2020/02/08 16:51:54 [crit] 6#6: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.48.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/favicon.ico", host: "localhost:3000", referrer: "http://localhost:3000/"
+2020/02/11 08:32:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:47:49 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:48:14 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:50:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:50:45 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:52:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 08:53:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 09:35:27 [crit] 8#8: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 09:36:09 [crit] 8#8: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (13: Permission denied) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 09:36:11 [crit] 8#8: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (13: Permission denied) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 09:37:35 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 09:37:36 [crit] 7#7: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (13: Permission denied) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 09:37:41 [crit] 7#7: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (13: Permission denied) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 10:09:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 10:12:28 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 10:14:32 [crit] 6#6: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 11:50:45 [crit] 6#6: *4 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 13:27:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 13:27:57 [crit] 6#6: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 13:33:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 13:33:36 [crit] 6#6: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.26.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 13:34:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/11 13:34:35 [crit] 7#7: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/11 13:35:00 [crit] 7#7: *2 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/12 03:56:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/02/12 03:57:20 [crit] 7#7: *1 connect() to unix:///app/tmp/sockets/puma.sock failed (2: No such file or directory) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://unix:///app/tmp/sockets/puma.sock:/", host: "localhost"
+2020/02/12 13:10:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored

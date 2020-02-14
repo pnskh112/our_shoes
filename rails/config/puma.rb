@@ -6,4 +6,4 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 plugin :tmp_restart
 
 # ソケット通信用に追加
-bind "unix://#{Rails.root}/tmp/sockets/puma.sock"
+bind "unix:///app/tmp/sockets/puma.sock"

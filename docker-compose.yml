@@ -1,5 +1,6 @@
 version: '2'
 services:
+
   app:
     build: rails
     environment:
@@ -9,14 +10,16 @@ services:
       APP_DATABASE_PASSWORD: root
     depends_on:
       - db
+
   db:
     build: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
+
   web:
     build: nginx
     ports:
-      - "3000:3000"
+      - "80:80"
     volumes:
       - ./nginx/log:/var/log/nginx
     volumes_from:
