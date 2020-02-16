@@ -1,1 +1,1 @@
-# my_shoes
+# git rm
